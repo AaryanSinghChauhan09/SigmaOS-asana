@@ -1,47 +1,23 @@
-# Component Name
+# Asana
 
-Component description.
+Asana is a SigmaOS component providing a functional domain model for `asana2` with validated state, deterministic storage, and typed errors.
 
-## Overview
+## Description
 
-This component provides $tool_name compatibility for SigmaOS.
+Asana project management compatibility layer for SigmaOS
 
-## Features
+## Domain model
 
-- Feature 1
-- Feature 2
+- `ProjectManagement` — domain entity
 
-## Usage
+## API
 
-```rust
-use sigmaos_tool::Tool;
-
-#[tokio::main]
-async fn main() -> anyhow::Result<()> {
-    let mut tool = Tool::new()?;
-    tool.init().await?;
-    Ok(())
-}
-```
-
-## Building
-
-```bash
-cargo build --release
-```
+- `new()`
 
 ## Testing
 
-```bash
+```sh
 cargo test
 ```
 
-## License
-
-MIT License - see LICENSE file for details
-
-## Inspiration
-
-- $tool_name tool
-- collaboration tools
-- productivity
+Tests are deterministic, isolated, and self-validating.
