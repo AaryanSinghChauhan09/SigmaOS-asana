@@ -3,7 +3,7 @@ name = "SigmaOS-asana2"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "asana2 component"
+description = "Asana project management compatibility layer for SigmaOS"
 upstream = []
 
 [contract]
